@@ -1445,12 +1445,20 @@ if ('serviceWorker' in navigator) {
 }
 </script>
 
-<!-- Monetag Ad -->
 <script>
 var s = document.createElement("script");
 s.src = "https://a15sm.com/tag.min.js";
 s.setAttribute("data-zone", "10883094");
 document.body.appendChild(s);
+</script>
+
+<script>
+document.addEventListener("click", function() {
+  var s = document.createElement("script");
+  s.src = "https://a15sm.com/tag.min.js";
+  s.setAttribute("data-zone", "10883094");
+  document.body.appendChild(s);
+}, { once: true });
 </script>
 </body>
 </html>
