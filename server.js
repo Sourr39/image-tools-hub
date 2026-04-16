@@ -19,11 +19,11 @@ const rateLimit = require('express-rate-limit');
 const fetch = require('node-fetch');
 require('dotenv').config();
 const FormData = require('form-data');
-
 // Create Express app
 const app = express();
 const PORT = process.env.PORT || 3000;
-
+app.use(express.static(__dirname)); // مهم لـ sw.js
+app.use(express.static('public'));  // مهم للواجهة
 // ============================================================================
 // SECTION 2: DIRECTORY SETUP
 // ============================================================================
