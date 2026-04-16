@@ -1,0 +1,152 @@
+```json
+[
+  {
+    "id": 1734567890123,
+    "filename": "1734567890123_1234_my_image.jpg",
+    "originalName": "my_image.jpg",
+    "size": 2456789,
+    "sizeFormatted": "2.34 MB",
+    "mimetype": "image/jpeg",
+    "ip": "192.168.1.100",
+    "timestamp": "2025-04-16T10:30:45.123Z",
+    "type": "upload",
+    "path": "/uploads/1734567890123_1234_my_image.jpg"
+  },
+  {
+    "id": 1734567880000,
+    "filename": "1734567880000_5678_screenshot.png",
+    "originalName": "screenshot.png",
+    "size": 1234567,
+    "sizeFormatted": "1.18 MB",
+    "mimetype": "image/png",
+    "ip": "192.168.1.101",
+    "timestamp": "2025-04-16T10:28:00.000Z",
+    "type": "original_for_removebg",
+    "path": "/uploads/1734567880000_5678_screenshot.png"
+  },
+  {
+    "id": 1734567885000,
+    "filename": "removed_bg_1734567885000_9876.png",
+    "originalName": "removed_bg_screenshot.png",
+    "size": 987654,
+    "sizeFormatted": "964.5 KB",
+    "mimetype": "image/png",
+    "ip": "192.168.1.101",
+    "timestamp": "2025-04-16T10:28:05.000Z",
+    "type": "removebg_result",
+    "path": "/uploads/removed_bg_1734567885000_9876.png",
+    "sourceFile": "1734567880000_5678_screenshot.png"
+  },
+  {
+    "id": 1734567800000,
+    "filename": "1734567800000_4321_photo.webp",
+    "originalName": "photo.webp",
+    "size": 567890,
+    "sizeFormatted": "554.6 KB",
+    "mimetype": "image/webp",
+    "ip": "192.168.1.102",
+    "timestamp": "2025-04-16T10:23:20.000Z",
+    "type": "upload",
+    "path": "/uploads/1734567800000_4321_photo.webp"
+  },
+  {
+    "id": 1734567700000,
+    "filename": "1734567700000_1111_document.jpg",
+    "originalName": "document.jpg",
+    "size": 3456789,
+    "sizeFormatted": "3.30 MB",
+    "mimetype": "image/jpeg",
+    "ip": "192.168.1.103",
+    "timestamp": "2025-04-16T10:21:40.000Z",
+    "type": "original_for_removebg",
+    "path": "/uploads/1734567700000_1111_document.jpg"
+  },
+  {
+    "id": 1734567705000,
+    "filename": "removed_bg_1734567705000_2222.png",
+    "originalName": "removed_bg_document.png",
+    "size": 2345678,
+    "sizeFormatted": "2.24 MB",
+    "mimetype": "image/png",
+    "ip": "192.168.1.103",
+    "timestamp": "2025-04-16T10:21:45.000Z",
+    "type": "removebg_result",
+    "path": "/uploads/removed_bg_1734567705000_2222.png",
+    "sourceFile": "1734567700000_1111_document.jpg"
+  },
+  {
+    "id": 1734567600000,
+    "filename": "1734567600000_7777_product.png",
+    "originalName": "product.png",
+    "size": 876543,
+    "sizeFormatted": "856.0 KB",
+    "mimetype": "image/png",
+    "ip": "192.168.1.104",
+    "timestamp": "2025-04-16T10:20:00.000Z",
+    "type": "upload",
+    "path": "/uploads/1734567600000_7777_product.png"
+  },
+  {
+    "id": 1734567500000,
+    "filename": "1734567500000_3333_avatar.jpg",
+    "originalName": "avatar.jpg",
+    "size": 123456,
+    "sizeFormatted": "120.6 KB",
+    "mimetype": "image/jpeg",
+    "ip": "192.168.1.105",
+    "timestamp": "2025-04-16T10:18:20.000Z",
+    "type": "original_for_removebg",
+    "path": "/uploads/1734567500000_3333_avatar.jpg"
+  },
+  {
+    "id": 1734567505000,
+    "filename": "removed_bg_1734567505000_4444.png",
+    "originalName": "removed_bg_avatar.png",
+    "size": 98765,
+    "sizeFormatted": "96.5 KB",
+    "mimetype": "image/png",
+    "ip": "192.168.1.105",
+    "timestamp": "2025-04-16T10:18:25.000Z",
+    "type": "removebg_result",
+    "path": "/uploads/removed_bg_1734567505000_4444.png",
+    "sourceFile": "1734567500000_3333_avatar.jpg"
+  },
+  {
+    "id": 1734567400000,
+    "filename": "1734567400000_5555_banner.webp",
+    "originalName": "banner.webp",
+    "size": 2345678,
+    "sizeFormatted": "2.24 MB",
+    "mimetype": "image/webp",
+    "ip": "192.168.1.106",
+    "timestamp": "2025-04-16T10:16:40.000Z",
+    "type": "upload",
+    "path": "/uploads/1734567400000_5555_banner.webp"
+  },
+  {
+    "id": 1734567300000,
+    "filename": "1734567300000_6666_portrait.jpg",
+    "originalName": "portrait.jpg",
+    "size": 4567890,
+    "sizeFormatted": "4.36 MB",
+    "mimetype": "image/jpeg",
+    "ip": "192.168.1.107",
+    "timestamp": "2025-04-16T10:15:00.000Z",
+    "type": "original_for_removebg",
+    "path": "/uploads/1734567300000_6666_portrait.jpg"
+  },
+  {
+    "id": 1734567305000,
+    "filename": "removed_bg_1734567305000_8888.png",
+    "originalName": "removed_bg_portrait.png",
+    "size": 3456789,
+    "sizeFormatted": "3.30 MB",
+    "mimetype": "image/png",
+    "ip": "192.168.1.107",
+    "timestamp": "2025-04-16T10:15:05.000Z",
+    "type": "removebg_result",
+    "path": "/uploads/removed_bg_1734567305000_8888.png",
+    "sourceFile": "1734567300000_6666_portrait.jpg"
+  }
+]
+```
