@@ -1445,8 +1445,24 @@
     navigator.serviceWorker.register('/sw.js');
   }
   </script>
-<script>(function(s){s.dataset.zone='10883094',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
-</body>
-</html>
+</script>
+
+<!-- Monetag Ad -->
+<script>
+(function(s,u,z,p){
+  s.src=u,s.dataset.zone=z,p.appendChild(s);
+})(document.createElement('script'),
+'https://a15sm.com/tag.min.js',
+10883094,
+document.body);
+</script>
+
+<!-- Service Worker -->
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js');
+}
+</script>
+
 </body>
 </html>
