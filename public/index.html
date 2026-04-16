@@ -1438,24 +1438,6 @@
 
       init();
     })();
-  </script>
-    <!-- إعلان Monetag -->
-  <script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js');
-  }
-  </script>
-
-<!-- Monetag Ad -->
-<script>
-(function(s,u,z,p){
-  s.src=u,s.dataset.zone=z,p.appendChild(s);
-})(document.createElement('script'),
-'https://a15sm.com/tag.min.js',
-10883094,
-document.body);
-</script>
-
 <!-- Service Worker -->
 <script>
 if ('serviceWorker' in navigator) {
@@ -1463,5 +1445,12 @@ if ('serviceWorker' in navigator) {
 }
 </script>
 
+<!-- Monetag Ad -->
+<script>
+var s = document.createElement("script");
+s.src = "https://a15sm.com/tag.min.js";
+s.setAttribute("data-zone", "10883094");
+document.body.appendChild(s);
+</script>
 </body>
 </html>
